@@ -1,2 +1,2 @@
-# dummy-project
-dummy
+# Animation
+With JavaScript
