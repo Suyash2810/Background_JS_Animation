@@ -51,12 +51,12 @@ window.onload = function () {
         }
 
         this.update = function () {
-            if (this.x + 30 > innerWidth || this.x - 30 < 0) {
+            if (this.x + this.radius > innerWidth || this.x - this.radius < 0) {
                 this.dx = -this.dx;
             }
             this.x += this.dx;
 
-            if (this.y + 30 > innerHeight || this.y - 30 < 0) {
+            if (this.y + this.radius > innerHeight || this.y - this.radius < 0) {
                 this.dy = -this.dy;
             }
             this.y += this.dy;
